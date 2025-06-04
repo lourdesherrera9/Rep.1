@@ -9,7 +9,7 @@ my_other_list = []
 
 print(len(my_list))
 
-my_list = [35, 24, 62, 52, 30, 30, 17]
+my_list = [35, 26, 51, 56, 32, 38, 17]
 
 print(my_list)
 print(len(my_list))
@@ -47,13 +47,13 @@ print(my_list + my_other_list)
 my_other_list.append("MoureDev")
 print(my_other_list)
 
-my_other_list.insert(1, "Rojo")
+my_other_list.insert(1, "Verde")
 print(my_other_list)
 
-my_other_list[1] = "Azul"
+my_other_list[1] = "Celeste"
 print(my_other_list)
 
-my_other_list.remove("Azul")
+my_other_list.remove("Celeste")
 print(my_other_list)
 
 my_list.remove(30)
@@ -89,6 +89,6 @@ print(my_new_list[1:3])
 
 # Cambio de tipo
 
-my_list = "Hola Python"
+my_list = "Hello Python"
 print(my_list)
 print(type(my_list))
